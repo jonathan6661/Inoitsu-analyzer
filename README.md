@@ -5,7 +5,6 @@ Inoitsu analyzer can help you investigate suspicious emails received from known 
 No API key required.
 
 If the email is compromised then it returns:
-- Compromised: true
 - Total breaches
 - Most recent breach
 - Breached data 
