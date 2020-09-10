@@ -16,13 +16,15 @@ If the email is compromised then it returns:
 ## Setting up the analyzer
 
 ~~~bash
-git clone https://github.com/jonathan6661/Inoitsu-analyzer.git
-cd Inoitsu-analyzer/Inoitsu
-pip3 install -r requirements
+$ git clone https://github.com/jonathan6661/Inoitsu-analyzer.git
+$ cd Inoitsu-analyzer/Inoitsu
+$ pip3 install -r requirements
 ~~~
+
 After installing the requirements you need to add Inoitsu folder to /Cortex-Analyzers/analyzers/ folder.
+
 ~~~bash
-cp -R Path_where_you_dowloaded_Inoitsu/Inoitsu-analyzer/Inoitsu Path_to_Cortex-Analyzers/Cortex-Analyzers/analyzers/
+$ cp -R Path_where_you_dowloaded_Inoitsu/Inoitsu-analyzer/Inoitsu Path_to_Cortex-Analyzers/Cortex-Analyzers/analyzers/
 ~~~
 
 ## Setting up Inoitsu analyzer on Cortex
