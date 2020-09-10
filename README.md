@@ -1,6 +1,6 @@
 # Inoitsu-analyzer
 
-Inoitsu analyzer can help you investigate suspicious emails received from known or unknown senders. (Helps you ensure that the sender's email address is not compromised)
+Inoitsu analyzer helps you investigate suspicious emails received from known or unknown senders. (Helps you ensure that the sender's email address is not compromised)
 
 No API key required.
 
