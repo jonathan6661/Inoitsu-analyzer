@@ -42,11 +42,11 @@ Navigate to Analyzers then run Inoitsu analyzer.
 
 ![run analyzer](https://user-images.githubusercontent.com/37407314/92719258-ce2ec800-f35a-11ea-9f82-f4ed9f4ab01e.PNG)
 
-Test Inoitsu analyzer on a uncompromised email address.
+Test Inoitsu analyzer on a compromised email address.
 
 ![report](https://user-images.githubusercontent.com/37407314/92719758-8d837e80-f35b-11ea-8120-014a389955cd.PNG)
 
-Test Inoitsu analyzer with an uncompromised email address.
+Test Inoitsu analyzer on an uncompromised email address.
 
 ![uncompromised](https://user-images.githubusercontent.com/37407314/92720556-a9d3eb00-f35c-11ea-8157-911d85149ae4.PNG)
 
