@@ -77,11 +77,11 @@ Then select the emails that you want to analyze, select Inoitsu and click on Run
 
 ![response](https://user-images.githubusercontent.com/37407314/92725358-f2db6d80-f363-11ea-8e59-697e579a75aa.PNG)
 
-To view the report of the compromised email, click on Inoitsu:Compromised="True"
+To view the report of the compromised email, click on ```Inoitsu:Compromised="True"```
 
 ![analyzer report](https://user-images.githubusercontent.com/37407314/92727316-d3920f80-f366-11ea-9e29-d2c21d286277.PNG)
 
-To view the report of the compromised email, click on Inoitsu:Compromised="False"
+To view the report of the uncompromised email, click on ```Inoitsu:Compromised="False"```
 
 ![analyzer report 2](https://user-images.githubusercontent.com/37407314/92727203-a5accb00-f366-11ea-875a-da30f01b6c4d.PNG)
 
