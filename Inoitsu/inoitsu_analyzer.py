@@ -7,7 +7,7 @@ import re
 class InoitsuAnalyzer(Analyzer):
 	def __init__(self):
 		Analyzer.__init__(self)
-
+		self.proxies = self.get_param('config.proxy', None)
 	def verify_email_format(self, email):
 		email_regex = '^(?i)[a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w{2,3}$'
 		if(re.search(email_regex,email)):
@@ -23,7 +23,7 @@ class InoitsuAnalyzer(Analyzer):
 	def inoitsu_check(self,email):
 		url ="https://www.hotsheet.com/inoitsu/"
 		data = {'act' : email, 'accounthide' : 'test', 'submit' : 'Submit'}
-		r = requests.post(url, data=data, timeout=10)
+		r = requests.post(url, data=data, proxies=self.proxies, timeout=15)
 		response = r.text
 		if 'BREACH DETECTED!' in response:
 			cleantext = self.remove_html_tags(response)
